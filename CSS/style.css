@@ -1,3 +1,50 @@
-.navbar{
-    /* background-color: white!important; */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+/* start navbar */
+.navbar{
+    background-color: white!important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,0.1);
+}
+.container-fluid .search{
+    position: absolute;
+    left: 245px;
+    font-size: 15px;
+    padding: 0px 12px;
+    
+}
+form{
+    margin-left: 130px!important;
+    height: 35px;
+}
+.form .linkedin{
+    top: 0px;
+    font-size: 38px;
+    color: #0a66c2;
+}
+.form .form-control{
+    background-color: #edf3f8;
+    padding: 0px 0px 0px 40px;
+    font-size: 14px;
+    box-shadow: none!important;
+    border: none!important;
+    width: 280px;
+}
+.nav-link{
+    font-size: small;
+    padding-top: 0px!important;
+    padding-right: 0px!important;
+}
+
+ul li span{
+    padding-right: 25px!important;
+}
+ul li i{
+    padding-left: 170px;
+    padding-top: 12px;
+    color: #666666!important;
+    font-size: 20px;
+}
+/* end navbar */
