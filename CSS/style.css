@@ -3,6 +3,9 @@
   margin: 0px;
   box-sizing: border-box;
 }
+body{
+  background-color: #eee;
+}
 /* start navbar */
 .navbar {
   background-color: white !important;
@@ -59,4 +62,27 @@ ul li i {
 .left-section,
 .center-section {
   background-color: #0a66c2;
+}
+/* center section */
+div .links a{
+  text-decoration: none;
+  color: #8a7c7c;
+
+}
+.links .hoverlink{
+  padding: 8px;
+  border-radius:4px ;
+}
+.links .hoverlink:hover{
+  background-color: #eee;
+}
+.div1{
+  margin-bottom: 10px;
+}
+.startPost{
+  height: 40px;
+  border-radius: 20px;
+}
+.startPost:hover{
+  background-color: #eee;
 }
