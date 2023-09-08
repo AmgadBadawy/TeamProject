@@ -3,14 +3,18 @@
   margin: 0px;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 body{
   background-color: #eee;
 }
 /* start navbar */
+=======
+>>>>>>> cf0f09d1ce76c81866a821667136b6b139bd0553
 .navbar {
   background-color: white !important;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
+
 .container-fluid .search {
   position: absolute;
   left: 245px;
@@ -49,7 +53,26 @@ ul li i {
   color: #666666 !important;
   font-size: 20px;
 }
-/* end navbar */
+
+/* .nav-container {
+  width: 73.6% !important;
+  margin: 0 auto;
+}
+input {
+  width: 300px !important;
+  border: none !important;
+  background-color: #edf3f8 !important;
+}
+input::placeholder {
+  padding-left: 15px !important;
+  font-size: 14px !important;
+}
+form .search {
+  top: 22px;
+  left: 275px;
+  z-index: 99;
+}
+
 .website-body {
   width: 70%;
   height: 500px;
@@ -63,6 +86,7 @@ ul li i {
 .center-section {
   background-color: #0a66c2;
 }
+<<<<<<< HEAD
 /* center section */
 div .links a{
   text-decoration: none;
@@ -86,3 +110,22 @@ div .links a{
 .startPost:hover{
   background-color: #eee;
 }
+=======
+
+nav .navbar-nav {
+  margin-left: 30px;
+  border-right: 2px solid #e8e8e8;
+}
+.second-navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.second-navbar-nav li {
+  margin-right: 8px;
+}
+.second-navbar-nav li .business-link {
+  color: black;
+  text-decoration: none;
+} */
+>>>>>>> cf0f09d1ce76c81866a821667136b6b139bd0553
