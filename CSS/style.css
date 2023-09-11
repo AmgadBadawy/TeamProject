@@ -4,113 +4,96 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #eee;
 }
-/* start navbar */
-
-
+/* ==================== */
+/* Navbar Styles */
 .navbar {
-  background-color: white !important;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e8e8e8;
 }
 
-.container-fluid .search {
-  position: absolute;
-  left: 245px;
-  font-size: 15px;
-  padding: 0px 12px;
+.container {
+  display: flex;
+  align-items: center;
 }
-form {
-  margin-left: 130px !important;
-  height: 35px;
+
+.form {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }
-.form .linkedin {
-  top: 0px;
-  font-size: 38px;
-  color: #0a66c2;
-}
+
 .form .form-control {
   background-color: #edf3f8;
-  padding: 0px 0px 0px 40px;
+  padding-left: 40px;
   font-size: 14px;
   box-shadow: none !important;
   border: none !important;
-  width: 280px;
-}
-.nav-link {
-  font-size: small;
-  padding-top: 0px !important;
-  padding-right: 0px !important;
+  height: 36px;
 }
 
-ul li span {
-  padding-right: 25px !important;
+.nav-link {
+  font-size: medium;
+  padding-top: 0px !important;
+  padding-right: 20px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-ul li i {
-  padding-left: 170px;
-  padding-top: 12px;
+
+.navbar-nav i {
   color: #666666 !important;
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
-/* .nav-container {
-  width: 73.6% !important;
-  margin: 0 auto;
-}
-input {
-  width: 300px !important;
-  border: none !important;
-  background-color: #edf3f8 !important;
-}
-input::placeholder {
-  padding-left: 15px !important;
-  font-size: 14px !important;
-}
-form .search {
-  top: 22px;
-  left: 275px;
-  z-index: 99;
-}
-
-.website-body {
-  width: 70%;
-  height: 500px;
-  display: grid;
-  grid-template-columns: 0.8fr 2fr 1fr;
-  gap: 30px;
-  margin: 30px auto;
-}
-.right-section,
-.left-section,
-.center-section {
+/* Additional Styles */
+.navbar-toggler-icon {
   background-color: #0a66c2;
 }
-<<<<<<< HEAD
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ================= */
+.website-body {
+  width: 70%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.4fr !important;
+  gap: 20px;
+}
 /* center section */
-div .links a{
+div .links a {
   text-decoration: none;
   color: #8a7c7c;
-
 }
-.links .hoverlink{
+.links .hoverlink {
   padding: 8px;
-  border-radius:4px ;
+  border-radius: 4px;
 }
-.links .hoverlink:hover{
+.links .hoverlink:hover {
   background-color: #eee;
 }
-.div1{
+.div1 {
   margin-bottom: 10px;
 }
-.startPost{
+.startPost {
   height: 40px;
   border-radius: 20px;
 }
-.startPost:hover{
+.startPost:hover {
   background-color: #eee;
 }
-
 
 nav .navbar-nav {
   margin-left: 30px;
@@ -127,4 +110,163 @@ nav .navbar-nav {
 .second-navbar-nav li .business-link {
   color: black;
   text-decoration: none;
-} 
+}
+.article {
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+.post-box {
+  padding: 23px 0 0;
+}
+.left-section-top,
+.left-section-bottom {
+  width: 230px;
+  height: auto;
+
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.background-image-container {
+  width: 230px;
+  height: 50px;
+  background-image: url("/Img/avatar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.avatar-container .avatar {
+  margin: 25px 0 0 80px;
+  z-index: 999;
+  position: relative;
+}
+.user-info-container {
+  transform: translate(0, -44px);
+  z-index: -1;
+  background-color: white;
+  width: 230px;
+  padding: 70px 0 10px;
+  border-bottom: 1px solid #cbcbcb;
+}
+.user-info-container > h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.user-info-container > p {
+  color: #8b8989;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+.connection-info-container {
+  background-color: white;
+  transform: translate(0, -44px);
+  padding: 12px 10px 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #cbcbcb;
+}
+.connection-info-container span {
+  color: #666666;
+}
+.connection-info-container p {
+  font-weight: 500;
+}
+.my-items {
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.left-section-bottom {
+  transform: translate(0, 300px);
+}
+.left-section-bottom .activtes-container {
+  background-color: white;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom: 1px solid #cbcbcb;
+}
+.activtes-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.activtes-container a {
+  text-decoration: none;
+}
+.footer-left-section-bottom {
+  padding: 10px;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 500;
+  color: #979797;
+}
+
+.right-section-top {
+  width: 300px;
+  height: 560px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+.right-section-top h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.recommendation-container {
+  padding: 10px 10px 10px 0;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+.recommendation-container img {
+  margin: 10px 15px 0 0;
+}
+.recommendation-container p {
+  font-size: 13px;
+  color: rgb(165, 165, 165);
+}
+.recommendation-container button {
+  border: 2px solid rgb(165, 165, 165);
+  padding: 2px 15px;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: white;
+  color: rgb(165, 165, 165);
+}
+.right-section-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.right-section-bottom span {
+  font-size: 14px;
+  color: #8a7c7c;
+}
+.right-section-bottom p {
+  color: #666666;
+}
+.right-section-bottom button {
+  padding: 2px 10px;
+  border-radius: 20px;
+  color: rgb(10, 102, 194);
+  background-color: white;
+  border: 2px solid rgb(10, 102, 194);
+  font-weight: 500;
+}
